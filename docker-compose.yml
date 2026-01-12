@@ -1,0 +1,61 @@
+volumes:
+  segments:
+  clips:
+  logs:
+  config:
+  ssl:
+
+services:
+  backend:
+    image: ghcr.io/liamgallagher/echolab-backend:latest
+    container_name: echolab-backend
+    restart: always
+    volumes:
+      - segments:/app/segments
+      - clips:/app/clips
+      - logs:/app/logs
+      - config:/app/config
+    environment:
+      - REPLAY_HOST=0.0.0.0
+      - REPLAY_PORT=8000
+      - AUTO_START_CAMERAS=true
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  frontend:
+    image: ghcr.io/liamgallagher/echolab-frontend:latest
+    container_name: echolab-frontend
+    restart: always
+    ports:
+      - "${REPLAY_HTTPS_PORT:-8443}:443"
+      - "${REPLAY_HTTP_PORT:-8080}:80"
+    volumes:
+      - ssl:/etc/nginx/ssl
+    environment:
+      - MDNS_HOSTNAME=${MDNS_HOSTNAME:-echolab}
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "--no-check-certificate", "https://localhost:443"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  updater:
+    image: ghcr.io/liamgallagher/echolab-updater:latest
+    container_name: echolab-updater
+    restart: always
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - config:/app/config
+    environment:
+      - COMPOSE_PROJECT_NAME=echolab
+      - COMPOSE_FILE=/app/docker-compose.yml
+      - DOCKER_API_VERSION=1.43
+    expose:
+      - "8100"
