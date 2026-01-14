@@ -45,6 +45,48 @@ if ! docker info &> /dev/null; then
     exit 1
 fi
 
+# Configure GPU monitoring permissions
+echo
+echo -e "${YELLOW}Configuring GPU monitoring permissions...${NC}"
+
+# Detect if running in a container (LXC/Docker) vs bare metal/VM
+is_container() {
+    # Check for LXC
+    if [ -f /proc/1/environ ] && grep -qa 'container=lxc' /proc/1/environ 2>/dev/null; then
+        return 0
+    fi
+    # Check for Docker
+    if [ -f /.dockerenv ]; then
+        return 0
+    fi
+    # Check cgroup for container indicators
+    if grep -qa 'docker\|lxc\|kubepod' /proc/1/cgroup 2>/dev/null; then
+        return 0
+    fi
+    return 1
+}
+
+PERF_PARANOID=$(cat /proc/sys/kernel/perf_event_paranoid 2>/dev/null || echo "unknown")
+
+if [ "$PERF_PARANOID" = "unknown" ]; then
+    echo -e "${YELLOW}⚠ Could not read perf_event_paranoid${NC}"
+elif [ "$PERF_PARANOID" -le 2 ]; then
+    echo -e "${GREEN}✓ GPU monitoring already configured (perf_event_paranoid=$PERF_PARANOID)${NC}"
+elif is_container; then
+    echo -e "${YELLOW}⚠ Running in a container - cannot modify kernel parameters${NC}"
+    echo -e "${YELLOW}  For GPU utilization monitoring, run this on your Proxmox/host:${NC}"
+    echo -e "    echo 'kernel.perf_event_paranoid = 2' > /etc/sysctl.d/99-echolab-gpu.conf"
+    echo -e "    sysctl -p /etc/sysctl.d/99-echolab-gpu.conf"
+else
+    # Bare metal or VM - can modify sysctl
+    echo "kernel.perf_event_paranoid = 2" | sudo tee /etc/sysctl.d/99-echolab-gpu.conf > /dev/null
+    if sudo sysctl -p /etc/sysctl.d/99-echolab-gpu.conf > /dev/null 2>&1; then
+        echo -e "${GREEN}✓ GPU monitoring enabled (perf_event_paranoid=2)${NC}"
+    else
+        echo -e "${YELLOW}⚠ Could not apply sysctl change - GPU utilization may not work${NC}"
+    fi
+fi
+
 # Create install directory
 echo
 echo -e "${YELLOW}Creating installation directory...${NC}"
