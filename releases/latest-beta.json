@@ -1,5 +1,5 @@
 {
-  "version": "0.22.1-beta",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.22.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Add confirmation dialog for camera deletion by @liamgallagher in https://github.com/liamgallagher/echolab/pull/22\n* fix: Handle ffprobe 7.x CSV output format in timestamp detection by @liamgallagher in https://github.com/liamgallagher/echolab/pull/23\n* fix: Add retry logic for auth init during backend unavailability by @liamgallagher in https://github.com/liamgallagher/echolab/pull/24\n### Other Changes\n* refactor: Improve changelog modal styling and cleanup by @liamgallagher in https://github.com/liamgallagher/echolab/pull/21\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.22.0-beta...v0.22.1-beta\n",
-  "published_at": "2026-01-21T13:11:29Z"
+  "version": "0.22.2-beta",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.22.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Remove per-camera GPU blocking and add persistent backend cache by @liamgallagher in https://github.com/liamgallagher/echolab/pull/25\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.22.1-beta...v0.22.2-beta\n",
+  "published_at": "2026-01-21T13:28:10Z"
 }
