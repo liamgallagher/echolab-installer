@@ -1,5 +1,5 @@
 {
-  "version": "0.23.0-beta",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.23.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add server-side TV configuration storage by @liamgallagher in https://github.com/liamgallagher/echolab/pull/26\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.22.2-beta...v0.23.0-beta\n",
-  "published_at": "2026-01-21T15:20:22Z"
+  "version": "0.24.0-beta",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.24.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add fullscreen prompt for TV mode by @liamgallagher in https://github.com/liamgallagher/echolab/pull/27\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.23.0-beta...v0.24.0-beta\n",
+  "published_at": "2026-01-21T15:53:06Z"
 }
