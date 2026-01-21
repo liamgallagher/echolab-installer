@@ -1,5 +1,5 @@
 {
-  "version": "0.24.0-beta",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.24.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add fullscreen prompt for TV mode by @liamgallagher in https://github.com/liamgallagher/echolab/pull/27\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.23.0-beta...v0.24.0-beta\n",
-  "published_at": "2026-01-21T15:53:06Z"
+  "version": "0.24.1-beta",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.24.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Keep TV displays on configured page when pressing Back/Escape by @liamgallagher in https://github.com/liamgallagher/echolab/pull/28\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.24.0-beta...v0.24.1-beta\n",
+  "published_at": "2026-01-21T16:21:15Z"
 }
