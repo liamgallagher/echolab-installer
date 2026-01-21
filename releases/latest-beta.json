@@ -1,5 +1,5 @@
 {
   "version": "0.22.0-beta",
-  "body": "\n",
-  "published_at": "2026-01-21T11:34:22Z"
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.22.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add shared memory (tmpfs) tracking to diagnostics by @liamgallagher in https://github.com/liamgallagher/echolab/pull/14\n* feat: Show changelog modal before update by @liamgallagher in https://github.com/liamgallagher/echolab/pull/19\n### Bug Fixes\n* fix: Use packet PTS for timestamp detection (FFmpeg 4.x compatibility) by @liamgallagher in https://github.com/liamgallagher/echolab/pull/13\n* fix: Handle counter resets in frame drop calculations by @liamgallagher in https://github.com/liamgallagher/echolab/pull/16\n* fix: Prevent spurious \"Stream unavailable\" message during camera startup by @liamgallagher in https://github.com/liamgallagher/echolab/pull/17\n* fix: Add confirmation dialog for clip deletion by @liamgallagher in https://github.com/liamgallagher/echolab/pull/18\n* fix(ci): Add alpha tag and fix empty release notes by @liamgallagher in https://github.com/liamgallagher/echolab/pull/20\n### Other Changes\n* feat: Add memory and segments monitoring to diagnostics panel by @liamgallagher in https://github.com/liamgallagher/echolab/pull/15\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.21.1-beta...v0.22.0-beta\n",
+  "published_at": "2026-01-21T11:42:54Z"
 }
