@@ -1,5 +1,5 @@
 {
-  "version": "0.22.2-beta",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.22.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Remove per-camera GPU blocking and add persistent backend cache by @liamgallagher in https://github.com/liamgallagher/echolab/pull/25\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.22.1-beta...v0.22.2-beta\n",
-  "published_at": "2026-01-21T13:28:10Z"
+  "version": "0.23.0-beta",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.23.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add server-side TV configuration storage by @liamgallagher in https://github.com/liamgallagher/echolab/pull/26\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.22.2-beta...v0.23.0-beta\n",
+  "published_at": "2026-01-21T15:20:22Z"
 }
