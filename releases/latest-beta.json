@@ -1,5 +1,5 @@
 {
-  "version": "0.24.1-beta",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.24.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Keep TV displays on configured page when pressing Back/Escape by @liamgallagher in https://github.com/liamgallagher/echolab/pull/28\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.24.0-beta...v0.24.1-beta\n",
-  "published_at": "2026-01-21T16:21:15Z"
+  "version": "0.24.2-beta",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.24.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Improve video grid layout and responsive behavior by @liamgallagher in https://github.com/liamgallagher/echolab/pull/29\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.24.1-beta...v0.24.2-beta\n",
+  "published_at": "2026-01-21T17:24:35Z"
 }
