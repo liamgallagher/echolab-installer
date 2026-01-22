@@ -1,5 +1,5 @@
 {
-  "version": "0.25.0-alpha",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.25.0-alpha -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.24.2-beta...v0.25.0-alpha\n",
-  "published_at": "2026-01-21T19:43:29Z"
+  "version": "0.27.0-alpha",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.27.0-alpha -->\n\n## What's Changed\n### Bug Fixes\n* fix: Correct TV preset layout icons and 1x2 camera count by @liamgallagher in https://github.com/liamgallagher/echolab/pull/30\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.24.2-beta...v0.27.0-alpha\n",
+  "published_at": "2026-01-22T10:01:24Z"
 }
