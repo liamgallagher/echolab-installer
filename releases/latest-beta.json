@@ -1,5 +1,5 @@
 {
-  "version": "0.24.2-beta",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.24.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Improve video grid layout and responsive behavior by @liamgallagher in https://github.com/liamgallagher/echolab/pull/29\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.24.1-beta...v0.24.2-beta\n",
-  "published_at": "2026-01-21T17:24:35Z"
+  "version": "0.26.0-beta",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.26.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Include camera names in TV config API responses by @liamgallagher in https://github.com/liamgallagher/echolab/pull/31\n### Bug Fixes\n* fix: Correct TV preset layout icons and 1x2 camera count by @liamgallagher in https://github.com/liamgallagher/echolab/pull/30\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.24.2-beta...v0.26.0-beta\n",
+  "published_at": "2026-01-22T09:52:40Z"
 }
