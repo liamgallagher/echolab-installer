@@ -1,5 +1,5 @@
 {
-  "version": "0.28.1-beta",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.28.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Use CPU decode for VAAPI multi-output pipelines by @liamgallagher in https://github.com/liamgallagher/echolab/pull/34\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.28.0-beta...v0.28.1-beta\n",
-  "published_at": "2026-01-23T00:40:26Z"
+  "version": "0.28.2-beta",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.28.2-beta -->\n\n## What's Changed\n### Other Changes\n* refactor: Simplify Cast receiver with iframe approach by @liamgallagher in https://github.com/liamgallagher/echolab/pull/35\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.28.1-beta...v0.28.2-beta\n",
+  "published_at": "2026-01-23T10:26:27Z"
 }
