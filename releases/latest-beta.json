@@ -1,5 +1,5 @@
 {
-  "version": "0.28.0-beta",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.28.0-beta -->\n\n## What's Changed\n### New Features\n* feat: GPU-accelerated scaled streams for multi-view layouts by @liamgallagher in https://github.com/liamgallagher/echolab/pull/32\n* feat: Add Chromecast DNS and SSL certificate support by @liamgallagher in https://github.com/liamgallagher/echolab/pull/33\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.26.0-beta...v0.28.0-beta\n\n<!-- Release notes generated using configuration in .github/release.yml at v0.28.0-beta -->\n\n## What's Changed\n### New Features\n* feat: GPU-accelerated scaled streams for multi-view layouts by @liamgallagher in https://github.com/liamgallagher/echolab/pull/32\n* feat: Add Chromecast DNS and SSL certificate support by @liamgallagher in https://github.com/liamgallagher/echolab/pull/33\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.26.0-beta...v0.28.0-beta\n",
-  "published_at": "2026-01-23T00:08:07Z"
+  "version": "0.28.1-beta",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.28.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Use CPU decode for VAAPI multi-output pipelines by @liamgallagher in https://github.com/liamgallagher/echolab/pull/34\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.28.0-beta...v0.28.1-beta\n",
+  "published_at": "2026-01-23T00:40:26Z"
 }
