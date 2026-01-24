@@ -1,5 +1,5 @@
 {
-  "version": "0.29.0-beta",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.29.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Chromecast hls.js receiver with auto-recovery by @liamgallagher in https://github.com/liamgallagher/echolab/pull/37\n* feat: Chromecast receiver stats and 540p standardization by @liamgallagher in https://github.com/liamgallagher/echolab/pull/38\n### Bug Fixes\n* feat: Native Chromecast grid with session persistence and GPU optimizations by @liamgallagher in https://github.com/liamgallagher/echolab/pull/36\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.28.2-beta...v0.29.0-beta\n",
-  "published_at": "2026-01-24T14:51:22Z"
+  "version": "0.29.1-beta",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.29.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Include backend changes for scaled streams refactor by @liamgallagher in https://github.com/liamgallagher/echolab/pull/40\n### Other Changes\n* refactor: Scaled streams code cleanup and bug fixes by @liamgallagher in https://github.com/liamgallagher/echolab/pull/39\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.29.0-beta...v0.29.1-beta\n",
+  "published_at": "2026-01-24T18:03:55Z"
 }
