@@ -1,5 +1,5 @@
 {
-  "version": "0.30.3-beta",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.30.3-beta -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.30.2-beta...v0.30.3-beta\n\n<!-- Release notes generated using configuration in .github/release.yml at v0.30.3-beta -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.30.2-beta...v0.30.3-beta\n",
-  "published_at": "2026-01-24T21:38:46Z"
+  "version": "0.30.5-beta",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.30.5-beta -->\n\n## What's Changed\n### New Features\n* feat: Add background Chromecast discovery on startup by @liamgallagher in https://github.com/liamgallagher/echolab/pull/42\n### Bug Fixes\n* fix: Reconnect to Chromecast when stopping cast by @liamgallagher in https://github.com/liamgallagher/echolab/pull/43\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.30.3-beta...v0.30.5-beta\n",
+  "published_at": "2026-01-24T22:08:30Z"
 }
