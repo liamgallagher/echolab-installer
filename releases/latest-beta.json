@@ -1,5 +1,5 @@
 {
-  "version": "0.30.0-beta",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.30.0-beta -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.29.1-beta...v0.30.0-beta\n\n<!-- Release notes generated using configuration in .github/release.yml at v0.30.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Server-side Chromecast auto-casting by @liamgallagher in https://github.com/liamgallagher/echolab/pull/41\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.29.1-beta...v0.30.0-beta\n",
-  "published_at": "2026-01-24T20:23:32Z"
+  "version": "0.30.1-beta",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.30.1-beta -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.30.0-alpha...v0.30.1-beta\n\n<!-- Release notes generated using configuration in .github/release.yml at v0.30.1-beta -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.30.0-beta...v0.30.1-beta\n",
+  "published_at": "2026-01-24T21:07:15Z"
 }
