@@ -1,5 +1,5 @@
 {
-  "version": "0.31.0-beta",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.31.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Show multi-output pipeline status in diagnostics by @liamgallagher in https://github.com/liamgallagher/echolab/pull/45\n* feat: Add NVR substream support for multi-view layouts by @liamgallagher in https://github.com/liamgallagher/echolab/pull/48\n### Bug Fixes\n* fix: Add input validation limits and improve Cast All dialogs by @liamgallagher in https://github.com/liamgallagher/echolab/pull/44\n* fix: Increase diagnostics polling rate and add Apply button for scaled settings by @liamgallagher in https://github.com/liamgallagher/echolab/pull/47\n### Performance\n* perf: Use VAAPI hardware decode for multi-output pipelines by @liamgallagher in https://github.com/liamgallagher/echolab/pull/46\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.30.5-beta...v0.31.0-beta\n",
-  "published_at": "2026-01-25T09:01:01Z"
+  "version": "0.32.0-beta",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.32.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add stats overlay and improve substream visibility by @liamgallagher in https://github.com/liamgallagher/echolab/pull/49\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.31.0-beta...v0.32.0-beta\n",
+  "published_at": "2026-01-25T16:34:06Z"
 }
