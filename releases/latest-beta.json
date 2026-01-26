@@ -1,5 +1,5 @@
 {
-  "version": "0.34.0-beta",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.34.0-beta -->\n\n## What's Changed\n### Bug Fixes\n* feat: Reanalyze improvements - parallel probing, UI feedback, and analysis stage display by @liamgallagher in https://github.com/liamgallagher/echolab/pull/61\n* fix: Update pychromecast API and add staggered loading for TV browsers by @liamgallagher in https://github.com/liamgallagher/echolab/pull/62\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.33.0-beta...v0.34.0-beta\n",
-  "published_at": "2026-01-25T23:51:25Z"
+  "version": "0.34.1-beta",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.34.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Navigate to System tab after update refresh by @liamgallagher in https://github.com/liamgallagher/echolab/pull/63\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.34.0-beta...v0.34.1-beta\n",
+  "published_at": "2026-01-26T00:10:45Z"
 }
