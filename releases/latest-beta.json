@@ -1,5 +1,5 @@
 {
-  "version": "0.34.1-beta",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.34.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Navigate to System tab after update refresh by @liamgallagher in https://github.com/liamgallagher/echolab/pull/63\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.34.0-beta...v0.34.1-beta\n",
-  "published_at": "2026-01-26T00:10:45Z"
+  "version": "0.35.0-beta",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.35.0-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Correct CastBrowser argument order for pychromecast API by @liamgallagher in https://github.com/liamgallagher/echolab/pull/64\n* feat: Add real-time progress tracking for camera analysis by @liamgallagher in https://github.com/liamgallagher/echolab/pull/65\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.34.1-beta...v0.35.0-beta\n",
+  "published_at": "2026-01-26T01:12:38Z"
 }
