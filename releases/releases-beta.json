@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.36.1-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.36.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Substream badge flicker and diagnostics pipeline display by @liamgallagher in https://github.com/liamgallagher/echolab/pull/75\n* fix: Alpha channel pulls correct Docker image tag by @liamgallagher in https://github.com/liamgallagher/echolab/pull/77\n### Other Changes\n* chore: Mock update system and diagnostics improvements by @liamgallagher in https://github.com/liamgallagher/echolab/pull/76\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.36.0-beta...v0.36.1-beta\n",
+      "published_at": "2026-01-28T12:01:46Z"
+    },
+    {
       "version": "0.36.0-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.36.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Show aggregated changelog for skipped versions when updating by @liamgallagher in https://github.com/liamgallagher/echolab/pull/70\n### Bug Fixes\n* fix: Prevent caching failed substream probes and simplify camera cards by @liamgallagher in https://github.com/liamgallagher/echolab/pull/71\n* fix: Use browser.devices for pychromecast CastInfo objects by @liamgallagher in https://github.com/liamgallagher/echolab/pull/72\n* fix: Chromecast casting and receiver layout fixes by @liamgallagher in https://github.com/liamgallagher/echolab/pull/73\n* fix: Revert hwdownload optimization for VAAPI multi-output by @liamgallagher in https://github.com/liamgallagher/echolab/pull/74\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.35.1-beta...v0.36.0-beta\n",
       "published_at": "2026-01-26T15:36:09Z"
