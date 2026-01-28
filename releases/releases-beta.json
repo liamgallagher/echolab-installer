@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.38.2-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.38.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Center TV mode 2x2 grid and align composite badges with regular TV mode by @liamgallagher in https://github.com/liamgallagher/echolab/pull/84\n* fix: Hide exit bypass button in production builds by @liamgallagher in https://github.com/liamgallagher/echolab/pull/85\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.38.1-beta...v0.38.2-beta\n",
+      "published_at": "2026-01-28T22:03:27Z"
+    },
+    {
       "version": "0.38.1-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.38.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Improve stream probe caching and fps detection by @liamgallagher in https://github.com/liamgallagher/echolab/pull/82\n* fix: Improve stream probe caching, fps detection, and add Docker cleanup UI by @liamgallagher in https://github.com/liamgallagher/echolab/pull/83\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.38.0-beta...v0.38.1-beta\n",
       "published_at": "2026-01-28T21:24:15Z"
