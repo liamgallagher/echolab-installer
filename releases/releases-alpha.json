@@ -2,8 +2,8 @@
   "releases": [
     {
       "version": "0.37.6-alpha",
-      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.37.6-alpha -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.37.5-alpha...v0.37.6-alpha\n",
-      "published_at": "2026-01-28T09:19:45Z"
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.37.6-alpha -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.37.5-alpha...v0.37.6-alpha\n\n<!-- Release notes generated using configuration in .github/release.yml at v0.37.6-alpha -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.37.5-alpha...v0.37.6-alpha\n",
+      "published_at": "2026-01-28T09:20:16Z"
     },
     {
       "version": "0.37.5-alpha",
