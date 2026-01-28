@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.37.11-alpha",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.37.11-alpha -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.37.10-alpha...v0.37.11-alpha\n",
+      "published_at": "2026-01-28T12:43:49Z"
+    },
+    {
       "version": "0.37.10-alpha",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.37.10-alpha -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.37.9-alpha...v0.37.10-alpha\n",
       "published_at": "2026-01-28T12:28:01Z"
