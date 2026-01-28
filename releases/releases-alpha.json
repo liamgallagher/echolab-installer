@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.37.10-alpha",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.37.10-alpha -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.37.9-alpha...v0.37.10-alpha\n",
+      "published_at": "2026-01-28T12:28:01Z"
+    },
+    {
       "version": "0.37.9-alpha",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.37.9-alpha -->\n\n## What's Changed\n### New Features\n* feat: Server-side video composition for TV presets by @liamgallagher in https://github.com/liamgallagher/echolab/pull/78\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.36.1-beta...v0.37.9-alpha\n",
       "published_at": "2026-01-28T12:15:29Z"
