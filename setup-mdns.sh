@@ -15,6 +15,19 @@ if ! command -v avahi-daemon &> /dev/null; then
     sudo apt-get update && sudo apt-get install -y avahi-daemon
 fi
 
+# Detect primary network interface (the one with default route)
+# This prevents Avahi from advertising on Docker bridges (172.17.x.x)
+PRIMARY_IF=$(ip route | grep default | awk '{print $5}' | head -1)
+if [ -n "$PRIMARY_IF" ]; then
+    echo "Configuring Avahi for interface: $PRIMARY_IF"
+    sudo sed -i "s/^#allow-interfaces=.*/allow-interfaces=${PRIMARY_IF}/" /etc/avahi/avahi-daemon.conf
+    if ! grep -q "^allow-interfaces=" /etc/avahi/avahi-daemon.conf; then
+        sudo sed -i "/^\[server\]/a allow-interfaces=${PRIMARY_IF}" /etc/avahi/avahi-daemon.conf
+    fi
+else
+    echo -e "${YELLOW}⚠ Could not detect primary interface${NC}"
+fi
+
 sudo tee /etc/avahi/services/echolab.service > /dev/null << EOF
 <?xml version="1.0" standalone='no'?>
 <!DOCTYPE service-group SYSTEM "avahi-service.dtd">
