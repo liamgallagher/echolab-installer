@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.37.1-alpha",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.37.1-alpha -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.37.0-alpha...v0.37.1-alpha\n",
+      "published_at": "2026-01-28T08:22:04Z"
+    },
+    {
       "version": "0.37.0-alpha",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.37.0-alpha -->\n\n## What's Changed\n### Bug Fixes\n* fix: Substream badge flicker and diagnostics pipeline display by @liamgallagher in https://github.com/liamgallagher/echolab/pull/75\n### Other Changes\n* chore: Mock update system and diagnostics improvements by @liamgallagher in https://github.com/liamgallagher/echolab/pull/76\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.36.0-beta...v0.37.0-alpha\n",
       "published_at": "2026-01-28T08:00:01Z"
