@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.39.0-alpha",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.39.0-alpha -->\n\n## What's Changed\n### New Features\n* feat: Add camera stream crop feature by @liamgallagher in https://github.com/liamgallagher/echolab/pull/89\n### Bug Fixes\n* fix: Fall back to full-res buffer when scaling isn't needed by @liamgallagher in https://github.com/liamgallagher/echolab/pull/88\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.38.3-beta...v0.39.0-alpha\n",
+      "published_at": "2026-01-29T10:45:13Z"
+    },
+    {
       "version": "0.37.11-alpha",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.37.11-alpha -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.37.10-alpha...v0.37.11-alpha\n",
       "published_at": "2026-01-28T12:43:49Z"
