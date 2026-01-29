@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.39.3-alpha",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.39.3-alpha -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.39.2-alpha...v0.39.3-alpha\n",
+      "published_at": "2026-01-29T12:00:07Z"
+    },
+    {
       "version": "0.39.2-alpha",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.39.2-alpha -->\n\n## What's Changed\n### Bug Fixes\n* fix: Use atomic writes for clips.json by @liamgallagher in https://github.com/liamgallagher/echolab/pull/92\n* fix: Use correct buffer method for preview frame extraction by @liamgallagher in https://github.com/liamgallagher/echolab/pull/93\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.39.1-alpha...v0.39.2-alpha\n",
       "published_at": "2026-01-29T11:38:19Z"
