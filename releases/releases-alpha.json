@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.39.2-alpha",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.39.2-alpha -->\n\n## What's Changed\n### Bug Fixes\n* fix: Use atomic writes for clips.json by @liamgallagher in https://github.com/liamgallagher/echolab/pull/92\n* fix: Use correct buffer method for preview frame extraction by @liamgallagher in https://github.com/liamgallagher/echolab/pull/93\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.39.1-alpha...v0.39.2-alpha\n",
+      "published_at": "2026-01-29T11:38:19Z"
+    },
+    {
       "version": "0.39.1-alpha",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.39.1-alpha -->\n\n## What's Changed\n### Bug Fixes\n* fix: Don't apply hwupload filter when using full VAAPI hardware decode by @liamgallagher in https://github.com/liamgallagher/echolab/pull/90\n### Other Changes\n* fix: Use atomic writes for cameras.json to prevent corruption by @liamgallagher in https://github.com/liamgallagher/echolab/pull/91\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.39.0-alpha...v0.39.1-alpha\n",
       "published_at": "2026-01-29T11:23:34Z"
