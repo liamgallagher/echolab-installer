@@ -1,26 +1,34 @@
 volumes:
-  segments:
   clips:
   logs:
-  config:
   ssl:
 
 services:
   backend:
     image: ghcr.io/liamgallagher/echolab-backend:latest
     container_name: echolab-backend
+    init: true  # Ensures FFmpeg child processes are properly terminated on container stop
     restart: always
+    network_mode: host  # Required for correct LAN IP detection (Chromecast DNS)
     volumes:
-      - segments:/app/segments
+      - type: tmpfs
+        target: /app/segments
+        tmpfs:
+          size: 500M  # ~8 cameras worth of buffer (~60MB each)
       - clips:/app/clips
       - logs:/app/logs
-      - config:/app/config
+      - ./:/app/config  # Bind mount - config dir is where compose file lives
+      - ssl:/etc/nginx/ssl  # Backend writes wildcard cert here
+    devices:
+      - /dev/dri:/dev/dri
+    privileged: true    # Required for intel_gpu_top debugfs + perf counter access
     environment:
       - REPLAY_HOST=0.0.0.0
-      - REPLAY_PORT=8000
+      - REPLAY_PORT=8200
       - AUTO_START_CAMERAS=true
+      - LIBVA_DRIVER_NAME=iHD
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      test: ["CMD", "curl", "-f", "http://localhost:8200/health"]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -30,32 +38,31 @@ services:
     image: ghcr.io/liamgallagher/echolab-frontend:latest
     container_name: echolab-frontend
     restart: always
-    ports:
-      - "${REPLAY_HTTPS_PORT:-8443}:443"
-      - "${REPLAY_HTTP_PORT:-8080}:80"
+    network_mode: host  # All containers on host network for simple localhost communication
     volumes:
       - ssl:/etc/nginx/ssl
     environment:
       - MDNS_HOSTNAME=${MDNS_HOSTNAME:-echolab}
+      - REPLAY_HTTPS_PORT=${REPLAY_HTTPS_PORT:-443}
+      - REPLAY_HTTP_PORT=${REPLAY_HTTP_PORT:-80}
     depends_on:
       backend:
         condition: service_healthy
     healthcheck:
-      test: ["CMD", "wget", "-q", "--spider", "--no-check-certificate", "https://localhost:443"]
+      test: ["CMD", "curl", "-fsk", "https://localhost:443"]
       interval: 30s
       timeout: 5s
       retries: 3
+      start_period: 10s
 
   updater:
     image: ghcr.io/liamgallagher/echolab-updater:latest
     container_name: echolab-updater
     restart: always
+    network_mode: host  # All containers on host network for simple localhost communication
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - config:/app/config
+      - ./:/app/config  # Bind mount - same as backend
     environment:
       - COMPOSE_PROJECT_NAME=echolab
-      - COMPOSE_FILE=/app/docker-compose.yml
-      - DOCKER_API_VERSION=1.43
-    expose:
-      - "8100"
+      - COMPOSE_FILE=/app/config/docker-compose.yml

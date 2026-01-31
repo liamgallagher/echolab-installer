@@ -8,8 +8,9 @@ RED='\033[0;31m'
 NC='\033[0m'
 
 INSTALL_DIR="${ECHOLAB_DIR:-/opt/echolab}"
-HTTPS_PORT="${REPLAY_HTTPS_PORT:-8443}"
-HTTP_PORT="${REPLAY_HTTP_PORT:-8080}"
+CONFIG_DIR="$INSTALL_DIR/config"
+HTTPS_PORT="${REPLAY_HTTPS_PORT:-443}"
+HTTP_PORT="${REPLAY_HTTP_PORT:-80}"
 INSTALLER_URL="https://raw.githubusercontent.com/liamgallagher/echolab-installer/main"
 
 echo -e "${GREEN}========================================${NC}"
@@ -87,26 +88,33 @@ else
     fi
 fi
 
-# Create install directory
+# Create install directory and config directory
 echo
-echo -e "${YELLOW}Creating installation directory...${NC}"
+echo -e "${YELLOW}Creating installation directories...${NC}"
 sudo mkdir -p "$INSTALL_DIR"
-sudo chown $USER:$USER "$INSTALL_DIR"
-cd "$INSTALL_DIR"
+sudo mkdir -p "$CONFIG_DIR"
+sudo chown -R $USER:$USER "$INSTALL_DIR"
+echo -e "${GREEN}✓ Directories created${NC}"
 
-# Download docker-compose.yml
+# Download docker-compose.yml to config directory
+# This is the canonical location - updater will use this file for updates
 echo -e "${YELLOW}Downloading configuration...${NC}"
-curl -sSL $INSTALLER_URL/docker-compose.yml -o docker-compose.yml
-echo -e "${GREEN}✓ Configuration downloaded${NC}"
+curl -sSL "$INSTALLER_URL/docker-compose.yml" -o "$CONFIG_DIR/docker-compose.yml"
+echo -e "${GREEN}✓ Configuration downloaded to $CONFIG_DIR/docker-compose.yml${NC}"
 
-# Create data directories
-echo -e "${YELLOW}Creating data directories...${NC}"
-mkdir -p data/segments data/clips data/config data/logs
-if [ ! -f data/config/cameras.json ]; then
-    echo '{"cameras": {}, "presets": {}}' > data/config/cameras.json
+# Initialize config file if it doesn't exist
+if [ ! -f "$CONFIG_DIR/config.json" ]; then
+    # Check for legacy cameras.json and migrate if present
+    if [ -f "$CONFIG_DIR/cameras.json" ]; then
+        echo -e "${YELLOW}Migrating cameras.json to config.json...${NC}"
+        mv "$CONFIG_DIR/cameras.json" "$CONFIG_DIR/config.json"
+        echo -e "${GREEN}✓ Config migrated${NC}"
+    else
+        echo '{"cameras": {}, "presets": {}}' > "$CONFIG_DIR/config.json"
+        echo -e "${GREEN}✓ Initial config created${NC}"
+    fi
 fi
-chmod -R 755 data/
-echo -e "${GREEN}✓ Data directories ready${NC}"
+chmod -R 755 "$CONFIG_DIR"
 
 # Setup mDNS
 echo
@@ -157,9 +165,10 @@ else
     echo -e "${GREEN}✓ Docker service enabled${NC}"
 fi
 
-# Start containers
+# Start containers from config directory
 echo
 echo -e "${YELLOW}Pulling and starting containers...${NC}"
+cd "$CONFIG_DIR"
 docker compose pull
 docker compose up -d
 
@@ -190,15 +199,22 @@ echo -e "${GREEN}Installation Complete!${NC}"
 echo -e "${GREEN}========================================${NC}"
 echo
 echo "Access EchoLab at:"
-echo -e "  mDNS:    ${GREEN}https://echolab.local:${HTTPS_PORT}${NC}"
-echo -e "  Local:   ${GREEN}https://localhost:${HTTPS_PORT}${NC}"
-echo -e "  Network: ${GREEN}https://${LOCAL_IP}:${HTTPS_PORT}${NC}"
+if [ "$HTTPS_PORT" = "443" ]; then
+    echo -e "  mDNS:    ${GREEN}https://echolab.local${NC}"
+    echo -e "  Local:   ${GREEN}https://localhost${NC}"
+    echo -e "  Network: ${GREEN}https://${LOCAL_IP}${NC}"
+else
+    echo -e "  mDNS:    ${GREEN}https://echolab.local:${HTTPS_PORT}${NC}"
+    echo -e "  Local:   ${GREEN}https://localhost:${HTTPS_PORT}${NC}"
+    echo -e "  Network: ${GREEN}https://${LOCAL_IP}:${HTTPS_PORT}${NC}"
+fi
 echo
 echo -e "${YELLOW}Note:${NC} Your browser will show a certificate warning."
 echo "This is expected for self-signed certificates."
 echo
 echo "Installed to: $INSTALL_DIR"
-echo "Manage with: cd $INSTALL_DIR && docker compose [up|down|logs]"
+echo "Config location: $CONFIG_DIR/docker-compose.yml"
+echo "Manage with: cd $CONFIG_DIR && docker compose [up|down|logs]"
 echo
 echo "Next steps:"
 echo "  1. Open the web interface in your browser"
