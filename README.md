@@ -75,16 +75,14 @@ cd /opt/echolab/config && docker compose pull && docker compose up -d
 ## Uninstall
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/liamgallagher/echolab-installer/main/uninstall.sh | bash
-```
-
-Or manually:
-
-```bash
+# Stop containers and remove volumes (clips, logs, ssl)
 cd /opt/echolab/config && docker compose down -v
+
+# Remove config directory
 sudo rm -rf /opt/echolab
-sudo rm /etc/avahi/services/echolab.service
-sudo systemctl restart avahi-daemon
+
+# Remove mDNS advertisement (optional)
+sudo rm -f /etc/avahi/services/echolab.service && sudo systemctl restart avahi-daemon
 ```
 
 ## Requirements
