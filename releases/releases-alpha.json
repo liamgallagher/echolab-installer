@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.42.0-alpha",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.42.0-alpha -->\n\n## What's Changed\n### New Features\n* feat: Add custom subdomain selection for memorable URLs by @liamgallagher in https://github.com/liamgallagher/echolab/pull/109\n### Bug Fixes\n* fix: Validate cert domain before skipping wildcard fetch by @liamgallagher in https://github.com/liamgallagher/echolab/pull/107\n* fix: Load Cast SDK dynamically to avoid TV browser errors by @liamgallagher in https://github.com/liamgallagher/echolab/pull/108\n* fix: Add installation_secret authentication for pre-auth endpoints by @liamgallagher in https://github.com/liamgallagher/echolab/pull/111\n### Other Changes\n* refactor: Extract shared useDebounce hook and subdomain error messages by @liamgallagher in https://github.com/liamgallagher/echolab/pull/110\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.41.1-beta...v0.42.0-alpha\n",
+      "published_at": "2026-01-31T11:43:57Z"
+    },
+    {
       "version": "0.39.5-alpha",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.39.5-alpha -->\n\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.39.4-alpha...v0.39.5-alpha\n",
       "published_at": "2026-01-29T13:37:48Z"
