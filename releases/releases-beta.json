@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.43.0-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.43.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add mobile-friendly Tooltip component by @liamgallagher in https://github.com/liamgallagher/echolab/pull/115\n### Bug Fixes\n* fix: Show URL for bookmarking instead of auto-redirect after subdomain change by @liamgallagher in https://github.com/liamgallagher/echolab/pull/113\n* fix: Correct desktop video grid height calculation to eliminate scrollbar by @liamgallagher in https://github.com/liamgallagher/echolab/pull/117\n* fix: Remove colon from substream badge for consistency by @liamgallagher in https://github.com/liamgallagher/echolab/pull/118\n* fix: Add key prop to CompositePlayer to reset state on preset change by @liamgallagher in https://github.com/liamgallagher/echolab/pull/119\n* fix: Auto-prune old Docker images after successful updates by @liamgallagher in https://github.com/liamgallagher/echolab/pull/120\n### Other Changes\n* chore: Update license server URL to custom domain by @liamgallagher in https://github.com/liamgallagher/echolab/pull/112\n* refactor: Remove bypass token functionality by @liamgallagher in https://github.com/liamgallagher/echolab/pull/114\n* refactor: Rename TV Mode to TV Presets and improve fullscreen button label by @liamgallagher in https://github.com/liamgallagher/echolab/pull/116\n* refactor: Use standard HTTP/HTTPS ports (80/443) by @liamgallagher in https://github.com/liamgallagher/echolab/pull/121\n* chore: Remove obsolete cleanup references after auto-prune change by @liamgallagher in https://github.com/liamgallagher/echolab/pull/122\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.42.0-alpha...v0.43.0-beta\n",
+      "published_at": "2026-01-31T16:44:25Z"
+    },
+    {
       "version": "0.41.1-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.41.1-beta -->\n\n## What's Changed\n### Other Changes\n* chore: Update crop docs and optimize VAAPI composite pipeline by @liamgallagher in https://github.com/liamgallagher/echolab/pull/106\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.41.0-beta...v0.41.1-beta\n",
       "published_at": "2026-01-30T19:16:36Z"
