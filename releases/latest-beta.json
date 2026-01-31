@@ -1,5 +1,0 @@
-{
-  "version": "0.35.1-beta",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.35.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Probe substream during camera startup to show correct resolution by @liamgallagher in https://github.com/liamgallagher/echolab/pull/66\n* fix: Persist settings tab across component remounts during updates by @liamgallagher in https://github.com/liamgallagher/echolab/pull/67\n* fix: Increase icon size inside IconButton for better visibility by @liamgallagher in https://github.com/liamgallagher/echolab/pull/69\n### Other Changes\n* refactor: Convert action buttons to icons and add camera status feedback by @liamgallagher in https://github.com/liamgallagher/echolab/pull/68\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.35.0-beta...v0.35.1-beta\n",
-  "published_at": "2026-01-26T12:36:46Z"
-}
