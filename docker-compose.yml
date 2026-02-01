@@ -17,7 +17,7 @@ services:
           size: 500M  # ~8 cameras worth of buffer (~60MB each)
       - clips:/app/clips
       - logs:/app/logs
-      - ./:/app/config  # Bind mount - config dir is where compose file lives
+      - /opt/echolab/config:/app/config  # Absolute path required for updater container recreation
       - ssl:/etc/nginx/ssl  # Backend writes wildcard cert here
     devices:
       - /dev/dri:/dev/dri
@@ -62,7 +62,7 @@ services:
     network_mode: host  # All containers on host network for simple localhost communication
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - ./:/app/config  # Bind mount - same as backend
+      - /opt/echolab/config:/app/config  # Absolute path required for updater container recreation
     environment:
       - COMPOSE_PROJECT_NAME=echolab
       - COMPOSE_FILE=/app/config/docker-compose.yml
