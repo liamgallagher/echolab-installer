@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.44.2-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.44.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Add logging for buffer depletion warnings by @liamgallagher in https://github.com/liamgallagher/echolab/pull/145\n* fix: Prevent stats overlay flicker on TV remote OK button by @liamgallagher in https://github.com/liamgallagher/echolab/pull/146\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.44.1-beta...v0.44.2-beta\n",
+      "published_at": "2026-02-03T21:09:34Z"
+    },
+    {
       "version": "0.44.1-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.44.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Average composite/substream CPU over 5s to smooth bursty values by @liamgallagher in https://github.com/liamgallagher/echolab/pull/141\n* fix: Composite GPU decode toggle and workbox fixes by @liamgallagher in https://github.com/liamgallagher/echolab/pull/142\n* fix: Scale composite overlay badges proportionally with container queries by @liamgallagher in https://github.com/liamgallagher/echolab/pull/144\n### Other Changes\n* refactor: Codebase cleanup - remove dead code, reduce duplication by @liamgallagher in https://github.com/liamgallagher/echolab/pull/143\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.44.0-beta...v0.44.1-beta\n",
       "published_at": "2026-02-01T23:33:47Z"
