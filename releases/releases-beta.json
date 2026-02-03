@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.44.3-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.44.3-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Use double-tap for TV remote stats overlay by @liamgallagher in https://github.com/liamgallagher/echolab/pull/147\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.44.2-beta...v0.44.3-beta\n",
+      "published_at": "2026-02-03T22:02:50Z"
+    },
+    {
       "version": "0.44.2-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.44.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Add logging for buffer depletion warnings by @liamgallagher in https://github.com/liamgallagher/echolab/pull/145\n* fix: Prevent stats overlay flicker on TV remote OK button by @liamgallagher in https://github.com/liamgallagher/echolab/pull/146\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.44.1-beta...v0.44.2-beta\n",
       "published_at": "2026-02-03T21:09:34Z"
