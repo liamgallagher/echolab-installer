@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.44.4-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.44.4-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Prevent touch events passing through modals on mobile by @liamgallagher in https://github.com/liamgallagher/echolab/pull/148\n* fix: Improve mobile UI with touch targets, gaps, and text sizing by @liamgallagher in https://github.com/liamgallagher/echolab/pull/149\n* fix: Allow tapping Settings nav to return to section list on mobile by @liamgallagher in https://github.com/liamgallagher/echolab/pull/150\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.44.3-beta...v0.44.4-beta\n",
+      "published_at": "2026-02-04T19:03:00Z"
+    },
+    {
       "version": "0.44.3-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.44.3-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Use double-tap for TV remote stats overlay by @liamgallagher in https://github.com/liamgallagher/echolab/pull/147\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.44.2-beta...v0.44.3-beta\n",
       "published_at": "2026-02-03T22:02:50Z"
