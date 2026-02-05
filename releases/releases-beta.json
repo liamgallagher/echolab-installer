@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.45.1-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.45.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Add detailed FFmpeg error logging on process failure by @liamgallagher in https://github.com/liamgallagher/echolab/pull/155\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.45.0-beta...v0.45.1-beta\n",
+      "published_at": "2026-02-05T17:06:10Z"
+    },
+    {
       "version": "0.45.0-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.45.0-beta -->\n\n## What's Changed\n### New Features\n* feature: Add H.265/HEVC encoder support with codec display by @liamgallagher in https://github.com/liamgallagher/echolab/pull/154\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.44.6-beta...v0.45.0-beta\n",
       "published_at": "2026-02-05T16:38:38Z"
