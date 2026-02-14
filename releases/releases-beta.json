@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.49.0-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.49.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Support local file input as mock camera for dev by @liamgallagher in https://github.com/liamgallagher/echolab/pull/177\n### Bug Fixes\n* fix: Show GPU Encoder chart at 0% during remux mode (Intel/VAAPI) by @liamgallagher in https://github.com/liamgallagher/echolab/pull/174\n* fix: Use recoverMediaError() for transient buffer stalls by @liamgallagher in https://github.com/liamgallagher/echolab/pull/175\n* fix: Use FFmpeg playlist for segment detection instead of file glob by @liamgallagher in https://github.com/liamgallagher/echolab/pull/176\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.48.0-beta...v0.49.0-beta\n",
+      "published_at": "2026-02-14T12:13:45Z"
+    },
+    {
       "version": "0.48.0-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.48.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add always-on playback diagnostics logging with root cause context by @liamgallagher in https://github.com/liamgallagher/echolab/pull/173\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.47.0-beta...v0.48.0-beta\n",
       "published_at": "2026-02-14T09:44:48Z"
