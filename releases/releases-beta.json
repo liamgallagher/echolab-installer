@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.48.0-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.48.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add always-on playback diagnostics logging with root cause context by @liamgallagher in https://github.com/liamgallagher/echolab/pull/173\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.47.0-beta...v0.48.0-beta\n",
+      "published_at": "2026-02-14T09:44:48Z"
+    },
+    {
       "version": "0.47.0-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.47.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add SSE for real-time TV preset updates across browser tabs by @liamgallagher in https://github.com/liamgallagher/echolab/pull/171\n### Bug Fixes\n* fix: Remux frame drops from irregular camera PTS and insufficient buffer runway by @liamgallagher in https://github.com/liamgallagher/echolab/pull/170\n* fix: Prevent restart loop from cascading into permanent HW accel failure by @liamgallagher in https://github.com/liamgallagher/echolab/pull/172\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.46.1-beta...v0.47.0-beta\n",
       "published_at": "2026-02-14T09:03:33Z"
