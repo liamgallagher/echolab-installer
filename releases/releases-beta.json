@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.47.0-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.47.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add SSE for real-time TV preset updates across browser tabs by @liamgallagher in https://github.com/liamgallagher/echolab/pull/171\n### Bug Fixes\n* fix: Remux frame drops from irregular camera PTS and insufficient buffer runway by @liamgallagher in https://github.com/liamgallagher/echolab/pull/170\n* fix: Prevent restart loop from cascading into permanent HW accel failure by @liamgallagher in https://github.com/liamgallagher/echolab/pull/172\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.46.1-beta...v0.47.0-beta\n",
+      "published_at": "2026-02-14T09:03:33Z"
+    },
+    {
       "version": "0.46.1-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.46.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Clip duration ignoring actual segment length in remux mode by @liamgallagher in https://github.com/liamgallagher/echolab/pull/167\n* fix: Remove duplicate Diagnostics header in System Settings by @liamgallagher in https://github.com/liamgallagher/echolab/pull/168\n* fix: Clip API 500 errors, missing crop passthrough, and duration display by @liamgallagher in https://github.com/liamgallagher/echolab/pull/169\n### Other Changes\n* chore: Add configurable debug logging across backend and frontend by @liamgallagher in https://github.com/liamgallagher/echolab/pull/166\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.46.0-beta...v0.46.1-beta\n",
       "published_at": "2026-02-13T18:38:22Z"
