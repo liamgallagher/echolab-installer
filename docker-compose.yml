@@ -14,7 +14,7 @@ services:
       - type: tmpfs
         target: /app/segments
         tmpfs:
-          size: 500M  # ~8 cameras worth of buffer (~60MB each)
+          size: 1G  # Buffer for segments (~60-160MB per camera depending on resolution)
       - clips:/app/clips
       - logs:/app/logs
       - /opt/echolab/config:/app/config  # Absolute path required for updater container recreation
