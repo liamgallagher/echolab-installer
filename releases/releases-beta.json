@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.53.0-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.53.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add release tracking to Sentry by @liamgallagher in https://github.com/liamgallagher/echolab/pull/207\n* feat: Add resync counter to differentiate drift reloads from buffer stalls by @liamgallagher in https://github.com/liamgallagher/echolab/pull/208\n* feat: Send Sentry events from dev mode with environment=development by @liamgallagher in https://github.com/liamgallagher/echolab/pull/209\n### Bug Fixes\n* fix: Skip ServiceWorker registration on IP addresses by @liamgallagher in https://github.com/liamgallagher/echolab/pull/206\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.52.2-beta...v0.53.0-beta\n",
+      "published_at": "2026-02-17T13:08:42Z"
+    },
+    {
       "version": "0.52.2-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.52.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: report actual version in telemetry and suppress Sentry in dev mode by @liamgallagher in https://github.com/liamgallagher/echolab/pull/205\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.52.1-beta...v0.52.2-beta\n",
       "published_at": "2026-02-17T11:49:54Z"
