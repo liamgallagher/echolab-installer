@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.54.0-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.54.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add installation heartbeat for last_seen tracking and license sync by @liamgallagher in https://github.com/liamgallagher/echolab/pull/211\n### Bug Fixes\n* fix: Suppress stall count during drift resyncs by @liamgallagher in https://github.com/liamgallagher/echolab/pull/212\n### Other Changes\n* refactor: Remove redundant Available stat from stats overlay by @liamgallagher in https://github.com/liamgallagher/echolab/pull/210\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.53.0-beta...v0.54.0-beta\n",
+      "published_at": "2026-02-17T14:54:00Z"
+    },
+    {
       "version": "0.53.0-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.53.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add release tracking to Sentry by @liamgallagher in https://github.com/liamgallagher/echolab/pull/207\n* feat: Add resync counter to differentiate drift reloads from buffer stalls by @liamgallagher in https://github.com/liamgallagher/echolab/pull/208\n* feat: Send Sentry events from dev mode with environment=development by @liamgallagher in https://github.com/liamgallagher/echolab/pull/209\n### Bug Fixes\n* fix: Skip ServiceWorker registration on IP addresses by @liamgallagher in https://github.com/liamgallagher/echolab/pull/206\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.52.2-beta...v0.53.0-beta\n",
       "published_at": "2026-02-17T13:08:42Z"
