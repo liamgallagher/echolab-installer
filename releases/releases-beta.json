@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.54.2-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.54.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Gate settings fetch on auth so Sentry initializes after PIN entry by @liamgallagher in https://github.com/liamgallagher/echolab/pull/215\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.54.1-beta...v0.54.2-beta\n",
+      "published_at": "2026-02-17T20:05:29Z"
+    },
+    {
       "version": "0.54.1-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.54.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Add missing extras so Sentry beforeSend filter actually works by @liamgallagher in https://github.com/liamgallagher/echolab/pull/213\n* fix: Persist device_info across telemetry reports by @liamgallagher in https://github.com/liamgallagher/echolab/pull/214\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.54.0-beta...v0.54.1-beta\n",
       "published_at": "2026-02-17T16:09:27Z"
