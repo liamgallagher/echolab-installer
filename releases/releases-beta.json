@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.52.2-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.52.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: report actual version in telemetry and suppress Sentry in dev mode by @liamgallagher in https://github.com/liamgallagher/echolab/pull/205\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.52.1-beta...v0.52.2-beta\n",
+      "published_at": "2026-02-17T11:49:54Z"
+    },
+    {
       "version": "0.52.1-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.52.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Fix remote-diagnostics skill issues found during live session by @liamgallagher in https://github.com/liamgallagher/echolab/pull/202\n* fix: Sync custom subdomain to installation record on DNS registration by @liamgallagher in https://github.com/liamgallagher/echolab/pull/203\n* fix: Use playlist edge for stats overlay Available metric by @liamgallagher in https://github.com/liamgallagher/echolab/pull/204\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.52.0-beta...v0.52.1-beta\n",
       "published_at": "2026-02-17T10:13:17Z"
