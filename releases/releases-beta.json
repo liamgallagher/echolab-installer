@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.55.1-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.55.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Match Custom button height with preset segment bar by @liamgallagher in https://github.com/liamgallagher/echolab/pull/218\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.55.0-beta...v0.55.1-beta\n",
+      "published_at": "2026-02-17T22:51:36Z"
+    },
+    {
       "version": "0.55.0-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.55.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add custom delay input for granular delay control by @liamgallagher in https://github.com/liamgallagher/echolab/pull/216\n### Bug Fixes\n* fix: Refine custom delay UI with confirm button and steppers by @liamgallagher in https://github.com/liamgallagher/echolab/pull/217\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.54.2-beta...v0.55.0-beta\n",
       "published_at": "2026-02-17T22:39:06Z"
