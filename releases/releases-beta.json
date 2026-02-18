@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.56.0-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.56.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Show build version in stats overlay for cache debugging by @liamgallagher in https://github.com/liamgallagher/echolab/pull/224\n### Bug Fixes\n* fix: Apply wall_clock_offset to clip segment selection for correct delay timing by @liamgallagher in https://github.com/liamgallagher/echolab/pull/220\n* fix: Resolve ONVIF WSDL path for Docker --target installs by @liamgallagher in https://github.com/liamgallagher/echolab/pull/222\n* fix: Replace double-tap with debounced long-press for Fire Stick stats overlay by @liamgallagher in https://github.com/liamgallagher/echolab/pull/223\n### Other Changes\n* chore: Add DEFERRED_PLAY diagnostic log for delay overshoot investigation by @liamgallagher in https://github.com/liamgallagher/echolab/pull/221\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.55.2-beta...v0.56.0-beta\n",
+      "published_at": "2026-02-18T20:20:01Z"
+    },
+    {
       "version": "0.55.2-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.55.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Disable autoFocus on touch devices to prevent keyboard popup by @liamgallagher in https://github.com/liamgallagher/echolab/pull/219\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.55.1-beta...v0.55.2-beta\n",
       "published_at": "2026-02-18T09:24:54Z"
