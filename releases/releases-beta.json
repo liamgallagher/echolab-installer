@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.55.2-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.55.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Disable autoFocus on touch devices to prevent keyboard popup by @liamgallagher in https://github.com/liamgallagher/echolab/pull/219\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.55.1-beta...v0.55.2-beta\n",
+      "published_at": "2026-02-18T09:24:54Z"
+    },
+    {
       "version": "0.55.1-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.55.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Match Custom button height with preset segment bar by @liamgallagher in https://github.com/liamgallagher/echolab/pull/218\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.55.0-beta...v0.55.1-beta\n",
       "published_at": "2026-02-17T22:51:36Z"
