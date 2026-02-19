@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.57.2-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.57.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Disable service worker precaching to fix stale content after updates by @liamgallagher in https://github.com/liamgallagher/echolab/pull/244\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.57.1-beta...v0.57.2-beta\n",
+      "published_at": "2026-02-19T22:23:38Z"
+    },
+    {
       "version": "0.57.1-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.57.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Fire TV Silk remote support for stats overlay and fullscreen prompt by @liamgallagher in https://github.com/liamgallagher/echolab/pull/241\n* fix: Correct backend logging levels for reduced noise at INFO by @liamgallagher in https://github.com/liamgallagher/echolab/pull/242\n* fix: Correct frontend logging levels and add missing Sentry reporting by @liamgallagher in https://github.com/liamgallagher/echolab/pull/243\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.57.0-beta...v0.57.1-beta\n",
       "published_at": "2026-02-19T21:45:59Z"
