@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.56.2-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.56.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Set minimum font size on stats overlay for small containers by @liamgallagher in https://github.com/liamgallagher/echolab/pull/227\n### Other Changes\n* refactor: Remove Replay tab, add camera View with inline delay/clip controls by @liamgallagher in https://github.com/liamgallagher/echolab/pull/226\n* refactor: Consolidate stream info into stats overlay by @liamgallagher in https://github.com/liamgallagher/echolab/pull/228\n* refactor: Move FFmpeg logs from camera cards to system diagnostics panel by @liamgallagher in https://github.com/liamgallagher/echolab/pull/229\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.56.1-beta...v0.56.2-beta\n",
+      "published_at": "2026-02-19T11:53:21Z"
+    },
+    {
       "version": "0.56.1-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.56.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Eliminate stats overlay flickering on Fire Stick remote hold by @liamgallagher in https://github.com/liamgallagher/echolab/pull/225\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.56.0-beta...v0.56.1-beta\n",
       "published_at": "2026-02-19T00:14:10Z"
