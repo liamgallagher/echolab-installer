@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.58.0-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.58.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add Sentry stall diagnostics breadcrumbs and context by @liamgallagher in https://github.com/liamgallagher/echolab/pull/250\n### Bug Fixes\n* fix: Hardcode HLS config per pipeline mode, remove user-configurable settings by @liamgallagher in https://github.com/liamgallagher/echolab/pull/249\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.57.3-beta...v0.58.0-beta\n",
+      "published_at": "2026-02-20T16:01:52Z"
+    },
+    {
       "version": "0.57.3-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.57.3-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Update stale license-server references missed in cloud-api refactor by @liamgallagher in https://github.com/liamgallagher/echolab/pull/246\n* fix: Update remote-diagnostics scripts for cloud-api URLs and Sentry API by @liamgallagher in https://github.com/liamgallagher/echolab/pull/247\n### Documentation\n* docs: Update CLOUD_API.md for new package structure and endpoint paths by @liamgallagher in https://github.com/liamgallagher/echolab/pull/248\n### Other Changes\n* refactor: Restructure license-server into cloud-api package by @liamgallagher in https://github.com/liamgallagher/echolab/pull/245\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.57.2-beta...v0.57.3-beta\n",
       "published_at": "2026-02-20T10:53:15Z"
@@ -244,11 +249,6 @@
       "version": "0.36.0-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.36.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Show aggregated changelog for skipped versions when updating by @liamgallagher in https://github.com/liamgallagher/echolab/pull/70\n### Bug Fixes\n* fix: Prevent caching failed substream probes and simplify camera cards by @liamgallagher in https://github.com/liamgallagher/echolab/pull/71\n* fix: Use browser.devices for pychromecast CastInfo objects by @liamgallagher in https://github.com/liamgallagher/echolab/pull/72\n* fix: Chromecast casting and receiver layout fixes by @liamgallagher in https://github.com/liamgallagher/echolab/pull/73\n* fix: Revert hwdownload optimization for VAAPI multi-output by @liamgallagher in https://github.com/liamgallagher/echolab/pull/74\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.35.1-beta...v0.36.0-beta\n",
       "published_at": "2026-01-26T15:36:09Z"
-    },
-    {
-      "version": "0.35.1-beta",
-      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.35.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Probe substream during camera startup to show correct resolution by @liamgallagher in https://github.com/liamgallagher/echolab/pull/66\n* fix: Persist settings tab across component remounts during updates by @liamgallagher in https://github.com/liamgallagher/echolab/pull/67\n* fix: Increase icon size inside IconButton for better visibility by @liamgallagher in https://github.com/liamgallagher/echolab/pull/69\n### Other Changes\n* refactor: Convert action buttons to icons and add camera status feedback by @liamgallagher in https://github.com/liamgallagher/echolab/pull/68\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.35.0-beta...v0.35.1-beta\n",
-      "published_at": "2026-01-26T12:36:46Z"
     }
   ]
 }
