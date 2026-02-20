@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.59.1-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.59.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Add double-press Select to toggle stats overlay on Fire TV by @liamgallagher in https://github.com/liamgallagher/echolab/pull/257\n### Other Changes\n* refactor: simplify backend — remove dead code, delegation wrappers, and duplication by @liamgallagher in https://github.com/liamgallagher/echolab/pull/254\n* refactor: reuse useVideoMetrics in CompositePlayer by @liamgallagher in https://github.com/liamgallagher/echolab/pull/255\n* refactor: extract standalone functions from useHlsPlayer useEffect by @liamgallagher in https://github.com/liamgallagher/echolab/pull/256\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.59.0-beta...v0.59.1-beta\n",
+      "published_at": "2026-02-20T23:04:19Z"
+    },
+    {
       "version": "0.59.0-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.59.0-beta -->\n\n## What's Changed\n### New Features\n* feat(sentry): stall diagnostics and update-time error suppression by @liamgallagher in https://github.com/liamgallagher/echolab/pull/252\n* fix(sentry): reset stall/error counters on player re-init by @liamgallagher in https://github.com/liamgallagher/echolab/pull/253\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.58.1-beta...v0.59.0-beta\n",
       "published_at": "2026-02-20T22:01:18Z"
@@ -244,11 +249,6 @@
       "version": "0.38.1-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.38.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Improve stream probe caching and fps detection by @liamgallagher in https://github.com/liamgallagher/echolab/pull/82\n* fix: Improve stream probe caching, fps detection, and add Docker cleanup UI by @liamgallagher in https://github.com/liamgallagher/echolab/pull/83\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.38.0-beta...v0.38.1-beta\n",
       "published_at": "2026-01-28T21:24:15Z"
-    },
-    {
-      "version": "0.38.0-beta",
-      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.38.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add camera badges to composite streams by @liamgallagher in https://github.com/liamgallagher/echolab/pull/80\n### Bug Fixes\n* fix: Improve composite stream reliability and add status indicator by @liamgallagher in https://github.com/liamgallagher/echolab/pull/79\n* fix: Position 1x2 composite badges above letterbox area by @liamgallagher in https://github.com/liamgallagher/echolab/pull/81\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.37.11-alpha...v0.38.0-beta\n",
-      "published_at": "2026-01-28T16:11:59Z"
     }
   ]
 }
