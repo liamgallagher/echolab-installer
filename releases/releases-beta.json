@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.57.3-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.57.3-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Update stale license-server references missed in cloud-api refactor by @liamgallagher in https://github.com/liamgallagher/echolab/pull/246\n* fix: Update remote-diagnostics scripts for cloud-api URLs and Sentry API by @liamgallagher in https://github.com/liamgallagher/echolab/pull/247\n### Documentation\n* docs: Update CLOUD_API.md for new package structure and endpoint paths by @liamgallagher in https://github.com/liamgallagher/echolab/pull/248\n### Other Changes\n* refactor: Restructure license-server into cloud-api package by @liamgallagher in https://github.com/liamgallagher/echolab/pull/245\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.57.2-beta...v0.57.3-beta\n",
+      "published_at": "2026-02-20T10:53:15Z"
+    },
+    {
       "version": "0.57.2-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.57.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Disable service worker precaching to fix stale content after updates by @liamgallagher in https://github.com/liamgallagher/echolab/pull/244\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.57.1-beta...v0.57.2-beta\n",
       "published_at": "2026-02-19T22:23:38Z"
