@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.60.0-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.60.0-beta -->\n\n## What's Changed\n### Performance\n* perf: replace drift reload with seek to eliminate buffer stalls by @liamgallagher in https://github.com/liamgallagher/echolab/pull/260\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.59.2-beta...v0.60.0-beta\n",
+      "published_at": "2026-02-22T15:01:22Z"
+    },
+    {
       "version": "0.59.2-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.59.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix(sentry): keep playlist XHR breadcrumbs for error debugging by @liamgallagher in https://github.com/liamgallagher/echolab/pull/258\n* fix: use desktop HLS config for Fire TV instead of constrained TV config by @liamgallagher in https://github.com/liamgallagher/echolab/pull/259\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.59.1-beta...v0.59.2-beta\n",
       "published_at": "2026-02-22T13:58:28Z"
@@ -244,11 +249,6 @@
       "version": "0.38.3-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.38.3-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Fix composite stream letterboxing and badge alignment by @liamgallagher in https://github.com/liamgallagher/echolab/pull/86\n* fix: Add init: true to backend for proper FFmpeg cleanup by @liamgallagher in https://github.com/liamgallagher/echolab/pull/87\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.38.2-beta...v0.38.3-beta\n",
       "published_at": "2026-01-29T00:20:43Z"
-    },
-    {
-      "version": "0.38.2-beta",
-      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.38.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Center TV mode 2x2 grid and align composite badges with regular TV mode by @liamgallagher in https://github.com/liamgallagher/echolab/pull/84\n* fix: Hide exit bypass button in production builds by @liamgallagher in https://github.com/liamgallagher/echolab/pull/85\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.38.1-beta...v0.38.2-beta\n",
-      "published_at": "2026-01-28T22:03:27Z"
     }
   ]
 }
