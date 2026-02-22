@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.61.0-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.61.0-beta -->\n\n## What's Changed\n### New Features\n* feat: add HLS config overlay and remove maxMaxBufferLength caps by @liamgallagher in https://github.com/liamgallagher/echolab/pull/261\n### Bug Fixes\n* fix: replace PDT drift controller with native hls.js sync by @liamgallagher in https://github.com/liamgallagher/echolab/pull/262\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.60.0-beta...v0.61.0-beta\n",
+      "published_at": "2026-02-22T18:33:35Z"
+    },
+    {
       "version": "0.60.0-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.60.0-beta -->\n\n## What's Changed\n### Performance\n* perf: replace drift reload with seek to eliminate buffer stalls by @liamgallagher in https://github.com/liamgallagher/echolab/pull/260\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.59.2-beta...v0.60.0-beta\n",
       "published_at": "2026-02-22T15:01:22Z"
@@ -244,11 +249,6 @@
       "version": "0.40.0-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.40.0-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Apply crop to substream pipeline by @liamgallagher in https://github.com/liamgallagher/echolab/pull/94\n* fix: Warn when cropped substream is smaller than requested height by @liamgallagher in https://github.com/liamgallagher/echolab/pull/95\n* fix: Fix composite stream letterboxing and badge alignment by @liamgallagher in https://github.com/liamgallagher/echolab/pull/96\n### Performance\n* perf: Use scale_vaapi for VAAPI multi-output pipelines by @liamgallagher in https://github.com/liamgallagher/echolab/pull/97\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.39.5-alpha...v0.40.0-beta\n",
       "published_at": "2026-01-29T14:57:03Z"
-    },
-    {
-      "version": "0.38.3-beta",
-      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.38.3-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Fix composite stream letterboxing and badge alignment by @liamgallagher in https://github.com/liamgallagher/echolab/pull/86\n* fix: Add init: true to backend for proper FFmpeg cleanup by @liamgallagher in https://github.com/liamgallagher/echolab/pull/87\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.38.2-beta...v0.38.3-beta\n",
-      "published_at": "2026-01-29T00:20:43Z"
     }
   ]
 }
