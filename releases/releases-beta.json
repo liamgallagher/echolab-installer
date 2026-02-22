@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.61.2-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.61.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: increase HLS runway to 10 segments to prevent Fire TV buffer stalls by @liamgallagher in https://github.com/liamgallagher/echolab/pull/264\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.61.1-beta...v0.61.2-beta\n",
+      "published_at": "2026-02-22T22:57:17Z"
+    },
+    {
       "version": "0.61.1-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.61.1-beta -->\n\n## What's Changed\n### Other Changes\n* hotfix: explicitly set liveSyncDurationCount in delayed HLS config by @liamgallagher in https://github.com/liamgallagher/echolab/pull/263\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.61.0-beta...v0.61.1-beta\n",
       "published_at": "2026-02-22T18:49:46Z"
@@ -244,11 +249,6 @@
       "version": "0.41.0-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.41.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Dynamic composite stream dimensions based on user preset by @liamgallagher in https://github.com/liamgallagher/echolab/pull/101\n* feat: Dynamic composite dimensions based on Multi-View Quality preset by @liamgallagher in https://github.com/liamgallagher/echolab/pull/102\n* feat: Dynamic aspect ratios and crop improvements by @liamgallagher in https://github.com/liamgallagher/echolab/pull/105\n### Bug Fixes\n* fix: Seek to liveSyncPosition before HLS playback starts by @liamgallagher in https://github.com/liamgallagher/echolab/pull/104\n### Other Changes\n* refactor: Normalize Chromecast stats and remove segments from storage/diagnostics by @liamgallagher in https://github.com/liamgallagher/echolab/pull/103\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.40.1-beta...v0.41.0-beta\n",
       "published_at": "2026-01-30T18:42:02Z"
-    },
-    {
-      "version": "0.40.1-beta",
-      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.40.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Fix composite stream startup with substream cameras by @liamgallagher in https://github.com/liamgallagher/echolab/pull/98\n* fix: Allow cleanup to remove unused channel-tagged Docker images by @liamgallagher in https://github.com/liamgallagher/echolab/pull/100\n### Other Changes\n* refactor: Extract StatsOverlay into shared component by @liamgallagher in https://github.com/liamgallagher/echolab/pull/99\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.40.0-beta...v0.40.1-beta\n",
-      "published_at": "2026-01-29T20:46:32Z"
     }
   ]
 }
