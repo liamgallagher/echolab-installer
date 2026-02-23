@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.62.3-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.62.3-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: scale EXTINF by clock_ratio to prevent delayed playback drift by @liamgallagher in https://github.com/liamgallagher/echolab/pull/270\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.62.2-beta...v0.62.3-beta\n",
+      "published_at": "2026-02-23T13:08:56Z"
+    },
+    {
       "version": "0.62.2-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.62.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: remove deferred play to eliminate delay overshoot by @liamgallagher in https://github.com/liamgallagher/echolab/pull/269\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.62.1-beta...v0.62.2-beta\n",
       "published_at": "2026-02-23T00:55:39Z"
@@ -244,11 +249,6 @@
       "version": "0.43.3-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.43.3-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Log substream crop warning only once at startup by @liamgallagher in https://github.com/liamgallagher/echolab/pull/134\n### Other Changes\n* refactor: Redesign diagnostics table to show FFmpeg processes by @liamgallagher in https://github.com/liamgallagher/echolab/pull/133\n* refactor: Improve diagnostics panel and updater cleanup by @liamgallagher in https://github.com/liamgallagher/echolab/pull/135\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.43.2-beta...v0.43.3-beta\n",
       "published_at": "2026-02-01T16:14:23Z"
-    },
-    {
-      "version": "0.43.2-beta",
-      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.43.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Sync composite badges with status API when preset changes by @liamgallagher in https://github.com/liamgallagher/echolab/pull/125\n* fix: Show contextual status messages in CompositePlayer by @liamgallagher in https://github.com/liamgallagher/echolab/pull/126\n* fix: Hide main stream badge when height is undefined by @liamgallagher in https://github.com/liamgallagher/echolab/pull/127\n* fix: Allow stopping cameras stuck in retry loop after RTSP failure by @liamgallagher in https://github.com/liamgallagher/echolab/pull/128\n* fix: Use live stream info for composite dimensions and camera names by @liamgallagher in https://github.com/liamgallagher/echolab/pull/130\n* fix: Show placeholder in camera dropdown when selection is invalid by @liamgallagher in https://github.com/liamgallagher/echolab/pull/131\n* fix: Show correct timestamp message when fixing is disabled by @liamgallagher in https://github.com/liamgallagher/echolab/pull/132\n### Documentation\n* docs: Simplify timestamp fixing messaging for non-technical users by @liamgallagher in https://github.com/liamgallagher/echolab/pull/129\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.43.1-beta...v0.43.2-beta\n",
-      "published_at": "2026-02-01T12:28:34Z"
     }
   ]
 }
