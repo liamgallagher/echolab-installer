@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.62.5-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.62.5-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: copy patches dir before npm install in Dockerfile by @liamgallagher in https://github.com/liamgallagher/echolab/pull/274\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.62.4-beta...v0.62.5-beta\n",
+      "published_at": "2026-02-23T16:51:01Z"
+    },
+    {
       "version": "0.62.4-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.62.4-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: patch hls.js LatencyController for symmetric playback rate adjustment by @liamgallagher in https://github.com/liamgallagher/echolab/pull/272\n* fix: add EMA smoothing to LatencyController to filter playlist-refresh jitter by @liamgallagher in https://github.com/liamgallagher/echolab/pull/273\n### Other Changes\n* hotfix: use full stream span for clock_ratio denominator by @liamgallagher in https://github.com/liamgallagher/echolab/pull/271\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.62.3-beta...v0.62.4-beta\n",
       "published_at": "2026-02-23T16:18:39Z"
@@ -244,11 +249,6 @@
       "version": "0.44.0-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.44.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add configurable composite GPU decode setting by @liamgallagher in https://github.com/liamgallagher/echolab/pull/140\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.43.4-beta...v0.44.0-beta\n",
       "published_at": "2026-02-01T19:05:20Z"
-    },
-    {
-      "version": "0.43.4-beta",
-      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.43.4-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Make update channel tags cumulative by @liamgallagher in https://github.com/liamgallagher/echolab/pull/136\n* fix: Prevent composite stutter on low-power GPUs by @liamgallagher in https://github.com/liamgallagher/echolab/pull/137\n* fix: Add keyboard event handling for TV remote stats overlay by @liamgallagher in https://github.com/liamgallagher/echolab/pull/138\n* fix: Sort sparkline samples by timestamp to prevent overlapping lines by @liamgallagher in https://github.com/liamgallagher/echolab/pull/139\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.43.3-beta...v0.43.4-beta\n",
-      "published_at": "2026-02-01T17:52:25Z"
     }
   ]
 }
