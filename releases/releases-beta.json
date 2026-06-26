@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.65.0-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.65.0-beta -->\n\n## What's Changed\n### New Features\n* feat(frontend): LIFETIME indicator for comp accounts + dev preview by @liamgallagher in https://github.com/liamgallagher/echolab/pull/327\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.64.0-beta...v0.65.0-beta\n",
+      "published_at": "2026-06-26T09:40:05Z"
+    },
+    {
       "version": "0.64.0-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.64.0-beta -->\n\n## What's Changed\n### New Features\n* feat(frontend): route Manage billing to the RevenueCat customer portal by @liamgallagher in https://github.com/liamgallagher/echolab/pull/325\n### Documentation\n* docs: RevenueCat billing re-platform + docs-discipline rule & reminder hook by @liamgallagher in https://github.com/liamgallagher/echolab/pull/326\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.63.0-beta...v0.64.0-beta\n",
       "published_at": "2026-06-26T08:27:19Z"
@@ -244,11 +249,6 @@
       "version": "0.44.3-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.44.3-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Use double-tap for TV remote stats overlay by @liamgallagher in https://github.com/liamgallagher/echolab/pull/147\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.44.2-beta...v0.44.3-beta\n",
       "published_at": "2026-02-03T22:02:50Z"
-    },
-    {
-      "version": "0.44.2-beta",
-      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.44.2-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Add logging for buffer depletion warnings by @liamgallagher in https://github.com/liamgallagher/echolab/pull/145\n* fix: Prevent stats overlay flicker on TV remote OK button by @liamgallagher in https://github.com/liamgallagher/echolab/pull/146\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.44.1-beta...v0.44.2-beta\n",
-      "published_at": "2026-02-03T21:09:34Z"
     }
   ]
 }
