@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.66.1-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.66.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix(frontend): storage panel reflects real disk usage, not just EchoLab's footprint by @liamgallagher in https://github.com/liamgallagher/echolab/pull/332\n* fix(updater): prune dangling images reliably after every update by @liamgallagher in https://github.com/liamgallagher/echolab/pull/333\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.66.0-beta...v0.66.1-beta\n",
+      "published_at": "2026-06-26T13:47:16Z"
+    },
+    {
       "version": "0.66.0-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.66.0-beta -->\n\n## What's Changed\n### New Features\n* feat(frontend): let Pro subscribers upgrade to Enterprise from the account page by @liamgallagher in https://github.com/liamgallagher/echolab/pull/330\n### Bug Fixes\n* fix(frontend): hide \"Upgrade to Enterprise\" CTA for lifetime/comp Pro accounts by @liamgallagher in https://github.com/liamgallagher/echolab/pull/331\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.65.1-beta...v0.66.0-beta\n",
       "published_at": "2026-06-26T12:29:19Z"
@@ -244,11 +249,6 @@
       "version": "0.44.6-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.44.6-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Use native video fullscreen on iOS by @liamgallagher in https://github.com/liamgallagher/echolab/pull/152\n### Other Changes\n* refactor: Reorganize settings into focused tabs by @liamgallagher in https://github.com/liamgallagher/echolab/pull/153\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.44.5-beta...v0.44.6-beta\n",
       "published_at": "2026-02-04T22:41:53Z"
-    },
-    {
-      "version": "0.44.5-beta",
-      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.44.5-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Add touch support to crop editor modal by @liamgallagher in https://github.com/liamgallagher/echolab/pull/151\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.44.4-beta...v0.44.5-beta\n",
-      "published_at": "2026-02-04T20:10:33Z"
     }
   ]
 }
