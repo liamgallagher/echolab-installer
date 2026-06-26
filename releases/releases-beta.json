@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "0.63.0-beta",
+      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.63.0-beta -->\n\n## What's Changed\n### New Features\n* feat(cloud-api): replace inert SendGrid delivery webhook with Resend by @liamgallagher in https://github.com/liamgallagher/echolab/pull/312\n* feat(tv): navigate tabs and settings sections on focus, no OK press by @liamgallagher in https://github.com/liamgallagher/echolab/pull/313\n* feat(android): port web-app logging + Sentry instrumentation to the TV app by @liamgallagher in https://github.com/liamgallagher/echolab/pull/317\n* feat: unified RevenueCat billing & entitlements (cloud-api + Android + web) by @liamgallagher in https://github.com/liamgallagher/echolab/pull/319\n* feat(frontend): wire RevenueCat Web Billing key (VITE_REVENUECAT_WEB_KEY) by @liamgallagher in https://github.com/liamgallagher/echolab/pull/322\n* feat(frontend): auto-select RevenueCat web key by build env (dev=sandbox, prod=prod) by @liamgallagher in https://github.com/liamgallagher/echolab/pull/323\n### Bug Fixes\n* fix(cloud-api): send transactional email via Resend instead of SendGrid by @liamgallagher in https://github.com/liamgallagher/echolab/pull/310\n* feat(cloud-api): restore device-authorization (QR login) endpoints on main by @liamgallagher in https://github.com/liamgallagher/echolab/pull/311\n* fix(frontend): self-heal cert drift with periodic reconcile in cert-reloader by @liamgallagher in https://github.com/liamgallagher/echolab/pull/315\n* fix(android): stabilize on-device standalone playback rate (setts timebase + drift deadzone) by @liamgallagher in https://github.com/liamgallagher/echolab/pull/316\n* feat(android): close remaining Sentry captureError parity gaps by @liamgallagher in https://github.com/liamgallagher/echolab/pull/318\n* feat(cloud-api): RevenueCat-sourced tier resolution (cache → RC API → Stripe) by @liamgallagher in https://github.com/liamgallagher/echolab/pull/320\n* fix(cloud-api): resolve heartbeat tier via RevenueCat (last Stripe-only path) by @liamgallagher in https://github.com/liamgallagher/echolab/pull/321\n* fix(frontend): make billing testable in dev mode (RevenueCat sandbox) by @liamgallagher in https://github.com/liamgallagher/echolab/pull/324\n### Other Changes\n* docs: reconcile documentation with current codebase by @liamgallagher in https://github.com/liamgallagher/echolab/pull/309\n* feat(android): standalone on-device mode — engine, clips, crop, ONVIF, licensing & QR sign-in by @liamgallagher in https://github.com/liamgallagher/echolab/pull/314\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/tv-v0.1.17...v0.63.0-beta\n",
+      "published_at": "2026-06-26T07:28:43Z"
+    },
+    {
       "version": "0.62.5-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.62.5-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: copy patches dir before npm install in Dockerfile by @liamgallagher in https://github.com/liamgallagher/echolab/pull/274\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.62.4-beta...v0.62.5-beta\n",
       "published_at": "2026-02-23T16:51:01Z"
@@ -244,11 +249,6 @@
       "version": "0.44.1-beta",
       "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.44.1-beta -->\n\n## What's Changed\n### Bug Fixes\n* fix: Average composite/substream CPU over 5s to smooth bursty values by @liamgallagher in https://github.com/liamgallagher/echolab/pull/141\n* fix: Composite GPU decode toggle and workbox fixes by @liamgallagher in https://github.com/liamgallagher/echolab/pull/142\n* fix: Scale composite overlay badges proportionally with container queries by @liamgallagher in https://github.com/liamgallagher/echolab/pull/144\n### Other Changes\n* refactor: Codebase cleanup - remove dead code, reduce duplication by @liamgallagher in https://github.com/liamgallagher/echolab/pull/143\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.44.0-beta...v0.44.1-beta\n",
       "published_at": "2026-02-01T23:33:47Z"
-    },
-    {
-      "version": "0.44.0-beta",
-      "body": "<!-- Release notes generated using configuration in .github/release.yml at v0.44.0-beta -->\n\n## What's Changed\n### New Features\n* feat: Add configurable composite GPU decode setting by @liamgallagher in https://github.com/liamgallagher/echolab/pull/140\n\n\n**Full Changelog**: https://github.com/liamgallagher/echolab/compare/v0.43.4-beta...v0.44.0-beta\n",
-      "published_at": "2026-02-01T19:05:20Z"
     }
   ]
 }
